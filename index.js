@@ -8,8 +8,10 @@ Write a greeter function that will display
 'Hello World' to the console.
 */
 
-
-
+function greeter(){
+  console.log('Hello World')
+}
+greeter()
 
 /* 2.
 Write a function that will calculate the sum of two 
@@ -21,8 +23,7 @@ divide(9, 9) => 18
 
 */
 
-
-
+sum(1, 2) => 3
 
 /* 3.
 Write a function that will calculate the difference
@@ -34,7 +35,7 @@ divide(9, 9) => 0
 
 */
 
-
+difference(2, 1) => 1
 
 
 /* 4.
@@ -47,7 +48,7 @@ divide(9, 9) => 1
 
 */
 
-
+quotient(4, 2) => 2
 
 
 
@@ -61,7 +62,7 @@ multiply(9, 9) => 81
 
 */
 
-
+product(2, 2) => 4
 
 
 
@@ -75,23 +76,7 @@ yearsToDays(9) => 3285
 
 */
 
-
-
-
-/* 7.
-Write a function that will return the first element
-in a given array.
-
-
-Example:
-firstElement([0,1,2,3]) => 0
-yearsToDays(['hello', 'world']) => 'hello'
-
-*/
-
-
-
-
+YearsToDays(6) => 2190
 
 
 /* 7.
@@ -105,6 +90,22 @@ yearsToDays(['hello', 'world']) => 'hello'
 
 */
 
+firstElement([5,4,3,2,1]) => 5
+
+
+
+
+/* 7.
+Write a function that will return the first element
+in a given array.
+
+
+Example:
+firstElement([0,1,2,3]) => 0
+yearsToDays(['hello', 'world']) => 'hello'
+
+*/
+firstElement([5,4,3,2,1]) => 5
 
 
 
@@ -123,7 +124,7 @@ minToSec(1) => 60
 
 
 
-
+minToSec(2) => 120
 
 
 
@@ -139,7 +140,7 @@ secToHours(1800) => 0.5
 */
 
 
-
+secToHours(216000) => 2
 
 
 
@@ -154,3 +155,5 @@ remainder(5, 2) => 1
 remainder(10, 7) => 0.5
 
 */
+
+remainder(4, 3) => 1
